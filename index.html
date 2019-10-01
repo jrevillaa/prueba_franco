@@ -1,3 +1,590 @@
-hola mundo!
-<br><br>
-Franco es un Rurin y gordingri.
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+		body  {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+
+		.content-general {
+			width: 950px;
+			margin: auto;
+		}
+
+		.content-general img {
+			width: 190px;
+		}
+
+		.row-title {
+			display: flex;
+		    align-items: center;
+		    text-align: center;
+		}
+
+		.row-title img {
+			margin-right: 110px;
+		}
+
+		h1 {
+			font-family: sans-serif;
+		}
+
+		.colums-two {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.text-end {
+			display: flex;
+			align-self: center;
+			justify-content: space-between;
+		}
+		.colums-two p {
+			margin: 0;
+			margin-bottom: 7px;
+
+		}
+
+		.colums-two p span {
+			font-weight: 800;
+			margin-right: 15px;
+		}
+
+		.box1 {
+			width: 130%;
+		}
+
+		.box2 {
+			width: 50%;
+		} 
+
+		.informe {
+			width: 100%;
+			margin-top: 20px;
+		}
+
+		.informe p {
+			margin: 0;
+		}
+
+		.row-info-title {
+			border: 1px solid black;
+		}
+
+		.informe .row-info-title .content {
+			width: 85%;
+		}
+
+		.row-info-title2 {
+			display: flex;
+		    justify-content: flex-end;
+		}
+
+		.row-info-title2 .content-colums {
+			display: flex;
+			margin-bottom: 15px;
+		}
+		.tablas-general {
+			margin-top: 25px;
+		}
+
+		.row-info-title2 .content-colums .colum1  {
+			width: 70%;
+		}
+
+		.row-info-title2 .content-colums .colum2 {
+			width: 30%;
+			display: flex;
+		    justify-content: space-around;
+		}
+
+		.title-subsections {
+		    height: 60px;
+		    display: flex;
+		}
+
+		.title-subsections h4 {
+			margin: 0;
+			margin-top: 15px;
+		}
+
+		.content-title {
+			width:90% !important;
+		}
+
+		.row-info-title .colum1-tabla {
+			width: 30%;
+			border: 1px solid black;
+			padding: 14px;
+		    box-sizing: border-box;
+		    display: flex;
+		    align-items: center;
+		}
+
+		.row-info-title .colum-tabla {
+			width: 25%;
+			border: 1px solid black;
+			padding: 10px;
+		    box-sizing: border-box;
+		}
+
+		.row-tablas {
+			display: flex;
+		}
+
+		.row-tablas h5 {
+			text-align: center;
+			margin: 0;
+			font-weight: 600;
+			font-size: 15px;
+		}
+
+		.text-none-border {
+			border: none !important;
+		}
+
+		.tabla2 .colum-tabla {
+			width: 34% !important;
+		}
+
+		.tabla2 {
+			border: none !important;
+		}
+
+
+
+
+		.row-info-title {
+			border: 1px solid black;
+		} 
+
+		.titulo-tabla {
+		    height: 55px;
+		}
+	</style>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body style="margin-bottom: 30px;">
+
+    <div class="container" style="max-width: 800px;">
+        <div class="row">
+            <div class="col-xs-10">
+                <img src="http://361.ucic.pe/images/intercorp.png" style="width: 183px;display:  inline-block;">
+                <h1 style="display:  inline-block;text-align:  center;float: right;margin-top:  0;margin-bottom: 36px;font-weight:  600;font-size:  32px;">Reporte de la Evaluación 361°</h1>
+            </div>
+            <div class="col-xs-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-9">
+                <p style="margin: 0 0 0px;"><span style="font-weight: 700;">Evaluado:</span> Enrique Gabriel Núñez Del Prado Zarate</p>
+                <p style="margin: 0 0 0px;"><span style="font-weight: 700;">Empresa:</span> Aviva</p>
+                <p style="margin: 0 0 0px;"><span style="font-weight: 700;">Fecha:</span> 09-2019</p>
+            </div>
+            <div class="col-xs-3">
+                <div>
+                    <p style="display:  inline-block;margin: 0 0 0px;"><span style="font-weight: 700;">Programados:</span></p>
+                    <p style="display:  inline-block; float: right;margin: 0 0 0px;">15</p>
+                </div>
+                <div>
+                    <p style="display:  inline-block;margin: 0 0 0px;"><span style="display:  inline-block;"><span style="font-weight: 700;">Respondieron:</span></span>
+                    </p>
+                    <p style="display:  inline-block; float: right;margin: 0 0 0px;">15</p>
+                </div>
+            </div>
+        </div>
+        <h5>SOBRE EL COLABORADOR</h5>
+        <div class="row" style="border: 1px solid">
+            <div class="col-xs-11" style="float: right">
+                <p style="margin:0;">COMPORTAMIENTOS PRIORITARIOS A MODIFICAR</p>
+            </div>
+        </div>
+        <div class="row" style="border: 1px solid">
+            <div class="col-xs-4" style="float: right">
+                <div class="row">
+                    <div class="col-xs-6" style="text-align: center;padding-top: -10px;">
+                        <div class="titulo-tabla">
+                            <h5 style="margin:0;">TOTAL</h5>
+                        </div>
+                        <p>0</p>
+                        <p style="margin-top: -10px;">2</p>
+                        <p style="margin-top: -10px;">6</p>
+                        <p style="margin-top: -10px;">6</p>
+                        <p style="margin-top: -10px;">1</p>
+                    </div>
+                    <div class="col-xs-6" style="text-align: center;padding-top: -10px;">
+                        <div class="titulo-tabla">
+                            <h5 style="margin:0;">%</h5>
+                        </div>
+                        <p>0%</p>
+                        <p style="margin-top: -10px;">13%</p>
+                        <p style="margin-top: -10px;">40%</p>
+                        <p style="margin-top: -10px;">40%</p>
+                        <p style="margin-top: -10px;">7%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6" style="float: right">
+                <div class="titulo-tabla" style="padding-top: 10px;">
+                    <h5 style="margin:0;margin-left: -110px;font-weight: bold;">Cuenta con indicadores relevantes y medibles para evaluar el performance de procesos y productos.</h5>
+                </div>
+                <p style="margin-left: -80px;">No Cumple</p>
+                <p style="margin-left: -80px;margin-top: -10px;">En Progreso</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Generalmente Cumple Bien</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Cumple y Supera</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Sobresaliente</p>
+            </div>
+        </div>
+        <div class="row" style="border: 1px solid">
+            <div class="col-xs-4" style="float: right">
+                <div class="row">
+                    <div class="col-xs-6" style="text-align: center;padding-top: -10px;">
+                        <div class="titulo-tabla">
+                            <h5 style="margin:0;">TOTAL</h5>
+                        </div>
+                        <p>0</p>
+                        <p style="margin-top: -10px;">2</p>
+                        <p style="margin-top: -10px;">3</p>
+                        <p style="margin-top: -10px;">9</p>
+                        <p style="margin-top: -10px;">1</p>
+                    </div>
+                    <div class="col-xs-6" style="text-align: center;padding-top: -10px;">
+                        <div class="titulo-tabla">
+                            <h5 style="margin:0;">%</h5>
+                        </div>
+                        <p>0%</p>
+                        <p style="margin-top: -10px;">13%</p>
+                        <p style="margin-top: -10px;">20%</p>
+                        <p style="margin-top: -10px;">60%</p>
+                        <p style="margin-top: -10px;">7%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6" style="float: right">
+                <div class="titulo-tabla" style="padding-top: 10px;">
+                    <h5 style="margin:0;margin-left: -110px;font-weight: bold;">Propicia activamente que se generen modelos de recopilación y análisis de data e información diversa, relevante, útil y confiable</h5>
+                </div>
+                <p style="margin-left: -80px;">No Cumple</p>
+                <p style="margin-left: -80px;margin-top: -10px;">En Progreso</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Generalmente Cumple Bien</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Cumple y Supera</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Sobresaliente</p>
+            </div>
+        </div>
+        <div class="row" style="border: 1px solid">
+            <div class="col-xs-4" style="float: right">
+                <div class="row">
+                    <div class="col-xs-6" style="text-align: center;padding-top: -10px;">
+                        <div class="titulo-tabla">
+                            <h5 style="margin:0;">TOTAL</h5>
+                        </div>
+                        <p>0</p>
+                        <p style="margin-top: -10px;">1</p>
+                        <p style="margin-top: -10px;">5</p>
+                        <p style="margin-top: -10px;">8</p>
+                        <p style="margin-top: -10px;">1</p>
+                    </div>
+                    <div class="col-xs-6" style="text-align: center;padding-top: -10px;">
+                        <div class="titulo-tabla">
+                            <h5 style="margin:0;">%</h5>
+                        </div>
+                        <p>0%</p>
+                        <p style="margin-top: -10px;">7%</p>
+                        <p style="margin-top: -10px;">33%</p>
+                        <p style="margin-top: -10px;">53%</p>
+                        <p style="margin-top: -10px;">7%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6" style="float: right">
+                <div class="titulo-tabla" style="padding-top: 10px;">
+                    <h5 style="margin:0;margin-left: -110px;font-weight: bold;">Toma y sustenta sus decisiones, acciones e ideas en base al análisis de data y evidencia.</h5>
+                </div>
+                <p style="margin-left: -80px;">No Cumple</p>
+                <p style="margin-left: -80px;margin-top: -10px;">En Progreso</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Generalmente Cumple Bien</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Cumple y Supera</p>
+                <p style="margin-left: -80px;margin-top: -10px;">Sobresaliente</p>
+            </div>
+        </div>
+
+        <div class="row" style="border: 1px solid">
+
+            <div class="col-xs-2">
+
+            </div>
+            <div class="col-xs-8" style="min-height: 620px;">
+                <div class="titulo-tabla" style="padding-top: 10px;">
+                    <h5 style="margin:0;font-weight: bold;">Comentarios o consejos para la persona</h5>
+                </div>
+                <ul style="margin-top: -18px;">
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Excelente trabajo Kike, eres un puntal para nuestro desarrollo.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Kike, admiro tu energía, tu predisposición para colaborar con el equipo y tu orientación 100% al servicio y cliente. Considero que has mejorado en cuanto al planeamiento y gestión de tu tiempo, sin embargo, sería mejor ver a un Kike más seguro de si mismo al momento de tomar las decisiones.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">El interés de Enrique por las personas es sobresaliente. Le dejaría como consejo que trabaje para poder comunicarse con síntesis (decir más con menos).</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Eres una persona que inspira confianza desde el primer momento. Tienes buena llegada con todos, te escuchamos.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Esperamos mucho de la parte humana de los colaboradores, debemos crear y mantener la cultura de la empresa</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">A términos generales y particulares, realiza un muy buen trabajo, un muy buen líder, sin embargo se considera que debe emplear un mayor tiempo en seguir seguimiento.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Sigue mejorando en temas de manejar acertivamente información importante.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Muy buen ali de crecimiento profesional</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Es un personal con mucha capacidad de adaptabilidad y super</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Una de sus principales cualidades de líder es que siempre esta para apoyarnos, es del que se toma su tiempo para la escucha.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Es un placer trabajar con Kike. En el mundo de Gestión Humana, es refrescante encontrarse con alguien genuinamente enfocado en las personas vs procesos. Kike muestra una energía extraordinaria, en conjunto con una actitud de construcción sobresaliente.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">La empatía es una de las virtudes que más nos debe costar evidenciar, pero en tu caso haces que parezca fácil de hacerlo .... continúa así</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Sigue así.</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Kike el crecimiento que has tenido en el último año ha sido sobresaliente. Se te nota y siente maduro en tus decisiones y sin miedo de tomar riesgos. Me parece admirable que logres siempre tener como prioridad el desarrollo del proyecto de acuerdo a los principios de diseño y propósito que tenemos (no a todos se bien hace tan fácil recordarlo) Confía en tus instintos. Te recomendaría dos cosas: * que logged de alguna manera organizada mantener track de las cosas que podemos mejorar para luego ejecutarlas o tener algunas áreas de tu ámbito siempre en mente para standardization procesos como / onbording y desvinculación de la manera “aviva”. Ya has generado mucho conocimiento que incluso otras empresas del grupo pueden usar y que te ponen de ejemplo, el tema es que si no las tienes escritas, recogidas, o pautadas, va a ser difícil replicarlas. *Aún cuando estamos en un momento bien duro, mantente atento a los lideres que no piden ayuda. Las cabezas tienen estilos diferentes y tu area es la perfecta para hacer esas preguntas como “ya le diste feedback a tu gente?” “Cuando vas a hacerlo?” “ sabes cómo hacerlo?”. Eso te sigue posicionando como líder decisivo para la organización y cultura que tenemos. Increíble trabajo! Te felicito!</li>
+                    <li style="margin-left: -125px; width: 700px;font-size: 11px;">Felicitaciones</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:30px;">
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <th style="text-align: center;width: 150px;">Comportamiento D3EC</th>
+                        <th style="text-align: center;width: 150px;">Acción 1</th>
+                        <th style="text-align: center;width: 150px;">Acción 2</th>
+                        <th style="text-align: center;width: 150px;">Lectura</th>
+                        <th style="text-align: center;width: 150px;">Cursos UCIC - Catálogo abierto</th>
+                        <th style="text-align: center;width: 150px;">Cursos UCIC - InLider</th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 2px;font-weight: bold;font-size: 10px;">Cuenta con indicadores relevantes y medibles para evaluar el performance de procesos y productos.</td>
+                        <td style="padding: 2px;font-size: 10px;">Dirija un grupo de gente con competencias a desarrollar/bajo desempeño durante la ejecución de una tarea muy desafiante para ellos si la hicieran sin el acompañamiento de un guía.</td>
+                        <td style="padding: 2px;font-size: 10px;">Audite el exceso de costos para evaluar el problema y presente los resultados a la persona o personas involucradas.</td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li style="list-style:none;">Croll, A., &amp; Yoskovitz, B. (2013). Lean analytics: Use data to build a better startup faster.</li>
+                            </ul>
+                        </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li>Business Intelligence con Excel I</li>
+                                <li>Business Intelligence con Excel II</li>
+                                <li>Dashboard y Manejo de Datos con Power BI</li>
+                            </ul>
+                        </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li>Endevour (N3)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 2px;font-weight: bold;font-size: 10px;">Propicia activamente que se generen modelos de recopilación y análisis de data e información diversa, relevante, útil y confiable</td>
+                        <td style="padding: 2px;font-size: 10px;">Dirija un proyecto de reducción de costos.</td>
+                        <td style="padding: 2px;font-size: 10px;">Haga una propuesta por escrito sobre una nueva norma, proceso, misión, contrato, producto, servicio o sistema, preséntela y "véndala" a la alta gerencia. </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li style="list-style:none;">Davenport, T. (2014). Big data at work: dispelling the myths, uncovering the opportunities. Harvard Business Review Press.</li>
+                            </ul>
+                        </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li>Fundamentos de Data Analytics</li>
+                                <li>Base de Datos y Programación en SQL</li>
+                                <li>Business Intelligence con Excel I</li>
+                                <li>Business Intelligence con Excel II</li>
+                                <li>Dashboard y Manejo de Datos con Power BI</li>
+                            </ul>
+                        </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li>Apollo (N1+Comité)</li>
+                                <li>InSight (N2)</li>
+                                <li>Voyager (N2, N3 Top)</li>
+                                <li>Evolution (N3)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 2px;font-weight: bold;font-size: 10px;">Toma y sustenta sus decisiones, acciones e ideas en base al análisis de data y evidencia.</td>
+                        <td style="padding: 2px;font-size: 10px;">Contrate a un equipo que no pertenezca a su organización.</td>
+                        <td style="padding: 2px;font-size: 10px;">Dirija la compra de un importante producto, equipo, material, programa o sistema.</td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li style="list-style:none;">Bartlett, R. (2013). A PRACTITIONER'S GUIDE TO BUSINESS ANALYTICS: Using Data Analysis Tools to Improve Your Organization’s Decision Making and Strategy. McGraw Hill Professional.</li>
+                            </ul>
+                        </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li>La Ciencia de Datos y Big Data - Herramienta Análisis Datos</li>
+                                <li>Business Intelligence con Excel I</li>
+                                <li>Business Intelligence con Excel II</li>
+                                <li>Dashboard y Manejo de Datos con Power BI</li>
+                            </ul>
+                        </td>
+                        <td style="padding: 2px;font-size: 10px;">
+                            <ul style="margin-left: -24px;">
+                                <li>Voyager (N2, N3 Top)</li>
+                                <li>Evolution (N3)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="row">
+            <h5 style="font-weight: bold;">Comportamientos Destacados - Top 3:</h5>
+            <div class="col-xs-2">
+
+            </div>
+            <div class="col-xs-10">
+                <ul>
+                    <li style="margin-left: -150px;">Distingue, retroalimenta y reconoce el alto desempeño de sus colaboradores con genuino interés</li>
+                    <li style="margin-left: -150px;">Moviliza pares, jefes y colaboradores hacia propósito trascendente y acciones concretas.</li>
+                    <li style="margin-left: -150px;">Escucha y vive de primera mano la experiencia del cliente</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5 style="font-weight: bold;">Evaluación de Competencias</h5>
+            <div class="col-xs-2">
+
+            </div>
+            <div class="col-xs-9">
+                <table class="table table-condensed" style="margin-top: -13px;">
+                    <thead>
+                        <tr>
+                            <th style="width: 290px;padding:1px;"></th>
+                            <th style="text-align: center;padding:1px;">Autoevaluación</th>
+                            <th style="text-align: center;padding:1px;">Evaluación 360°</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;">Determinación en la Ejecución</td>
+                            <td style="text-align: center;padding:1px;">3.50</td>
+                            <td style="text-align: center;padding:1px;">3.95</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;">Energización de Personas</td>
+                            <td style="text-align: center;padding:1px;">4.00</td>
+                            <td style="text-align: center;padding:1px;">4.12</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;">Obsesión por el Cliente</td>
+                            <td style="text-align: center;padding:1px;">4.00</td>
+                            <td style="text-align: center;padding:1px;">4.22</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;">Mentalidad Digital</td>
+                            <td style="text-align: center;padding:1px;">3.75</td>
+                            <td style="text-align: center;padding:1px;">4.02</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;">Foco en Data</td>
+                            <td style="text-align: center;padding:1px;">2.75</td>
+                            <td style="text-align: center;padding:1px;">3.62</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;text-align: right;">Promedio</td>
+                            <td style="text-align: center;font-weight: bold;padding:1px;">3.60</td>
+                            <td style="text-align: center;font-weight: bold;padding:1px;">3.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5 style="font-weight: bold;">Engagement Survey (refleja la voz de tus reportes directos únicamente)</h5>
+
+            <div class="col-xs-12">
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th style="width: 468px;padding:1px;"></th>
+                            <!-- <th style="text-align: center;padding:1px;">Autoevaluación</th>-->
+                            <th style="text-align: center;padding:1px;">Tu Equipo</th>
+                            <th style="text-align: center;padding:1px;">Aviva</th>
+                            <th style="text-align: center;padding:1px;">Intercorp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Este último año he tenido oportunidades de aprender en el trabajo</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">En el trabajo, mis opiniones son escuchadas</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Yo recomendaría mi empresa como un buen lugar para trabajar</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">En este trabajo cada día tengo la oportunidad de hacer lo que mejor hago</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">4.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Cuando me despierto por la mañana, siento ganas de ir a trabajar</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Quiero trabajar aquí por mucho tiempo</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Mis compañeros de trabajo están comprometidos a realizar un trabajo excelente</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Recibo reconocimiento por el trabajo bien hecho</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">4.50</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Siento que el trabajo que realizo es valioso</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;font-size: 10px;">Recomendaría los productos y servicios de esta organización a mis conocidos</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;">5.00</td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                            <td style="text-align: center;padding:1px;font-size: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px;font-weight: bold;text-align: right;">Promedio</td>
+                            <!-- <td style="text-align: center;font-weight: bold;padding:1px;">3.40</td>-->
+                            <td style="text-align: center;font-weight: bold;padding:1px;">4.85</td>
+                            <td style="text-align: center;font-weight: bold;padding:1px;">4.49</td>
+                            <td style="text-align: center;font-weight: bold;padding:1px;">4.41</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
